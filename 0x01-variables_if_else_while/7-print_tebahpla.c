@@ -1,15 +1,18 @@
-include <stdio.h>
+#include <stdio.h>
 /**
-*main - entry point, print the alphabets
-*with only two putchar()s
+* main - print if the number is postive, zero, or negative
 *
-* Return: Always 0 (Success)
+* Description: using the main function
+* this program prints "Programming is positive, zero, or negative
+* Return: 0
 */
 int main(void)
 {
-        for (int i = 122; i > 96; i--)
-        {
-                printf("%c", i);
-        }
-        printf("\n");
+char c;
+for (c = 'z'; c >= 'a'; c--)
+{
+putchar(c);
+}
+putchar('\n');
+return (0);
 }
