@@ -1,25 +1,22 @@
 #include <stdio.h>
 /**
-*main - entry point, print the alphabets
-*with only two putchar()s
+* main - print if the number is postive, zero, or negative
 *
-* Return: Always 0 (Success)
+* Description: using the main function
+* this program prints "Programming is positive, zero, or negative
+* Return: 0
 */
 int main(void)
 {
-	int i = '0';
-
-	while (i <= '9')
-	{
-		putchar(i);
-		i++;
-	}
-	int j = 97;
-
-	while (j < 103)
-	{
-		putchar(i);
-		j++;
-	}
-	putchar('\n');
+char c;
+for (c = '0'; c <= '9'; c++)
+{
+putchar(c);
+}
+for (c = 'a'; c <= 'f'; c++)
+{
+putchar(c);
+}
+putchar('\n');
+return (0);
 }

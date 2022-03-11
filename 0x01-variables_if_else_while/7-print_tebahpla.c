@@ -1,4 +1,4 @@
-#include <stdio.h>
+include <stdio.h>
 /**
 *main - entry point, print the alphabets
 *with only two putchar()s
@@ -7,9 +7,9 @@
 */
 int main(void)
 {
-	for (int i = 122; i > 96; i--)
-	{
-		printf("%c", i);
-	}
-	printf("\n");
+        for (int i = 122; i > 96; i--)
+        {
+                printf("%c", i);
+        }
+        printf("\n");
 }
